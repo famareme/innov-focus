@@ -1,5 +1,5 @@
 import { Navbar, Nav,  Container } from 'react-bootstrap';
-import { ReactComponent as Logo } from '../assets/images/logo.svg';
+import { ReactComponent as Logo } from '../assets/images/logo2-with-background.svg';
 import { LinkContainer } from 'react-router-bootstrap';
 
 const Header = () => {
@@ -10,7 +10,7 @@ const Header = () => {
     <Container>
     <Navbar className="py-3 d-lg-flex" collapseOnSelect expand="lg" bg="light" variant="light">
     <LinkContainer to="/">
-       <Navbar.Brand>  <Logo  height={ 120 }/></Navbar.Brand>
+       <Navbar.Brand>  <Logo  width={ 300 } height={ 120 }/></Navbar.Brand>
     </LinkContainer>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">

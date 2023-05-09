@@ -9,10 +9,12 @@
       z-index: 2; 
 
       .navbar-nav .nav-link {
-        font-size: 18px;
-        margin-left: auto; 
-        color: #fff; 
-        padding: .5rem .7rem;
+        font-size: 14px;
+        margin-left: auto;
+        color: #fff;
+        padding: 0.5rem 0.7rem;
+        font-family: "Source Sans Pro";
+        text-transform: uppercase;
       }
 /**********************Navbar ********************************/
       .navbar-light {
@@ -89,6 +91,17 @@
         }
       }
     }
+    .card-link {
+      position: absolute;
+      bottom: 1em;
+      right: 2em;
+   }
+   .card-body {
+     padding: 1rem .5rem;
+     .card-text {
+      margin: 0 0 1rem 0;
+     }
+}
   }
 .content-match {
   margin: 0;
@@ -180,8 +193,14 @@
       align-content: center;
       .header {
         display: flex;
-    flex-direction: column;
-    margin-left: 1em;
+        flex-direction: column;
+        margin-left: 1em;
+        h3 {
+          color: #004D6E;
+        }
+        .title {
+          color: #54595F
+        }
       }
   }
 
@@ -245,7 +264,7 @@
             color: #777;
             font-size: 16px;
             letter-spacing: .5px;
-        }
+          }
         }
        
       }
