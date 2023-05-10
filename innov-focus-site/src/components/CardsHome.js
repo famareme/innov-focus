@@ -10,7 +10,7 @@ const CardsHome = () => {
           <Card.Text>
             Le bureau de représentation est une solution souple et efficace. Structure flexible et légère, le bureau de liaison ou de représentation ne dispose pas, à l'inverse d'une filiale, d'entité juridique et fiscale propre.
           </Card.Text>
-          <Card.Link href="#">Lire Plus</Card.Link>
+          <Card.Link href="services#service-1">Lire Plus</Card.Link>
         </Card.Body>
       </Card>
       <Card className="col col-lg-3 mr-2">
@@ -21,7 +21,7 @@ const CardsHome = () => {
           Une fois votre décision clairement prise, Dakar Biodiversité peut vous accompagner dans les démarches administratives pour donner naissance à votre bureau de représentation commerciale. 
 
           </Card.Text>
-          <Card.Link href="#">Lire Plus</Card.Link>
+          <Card.Link href="services#service-2">Lire Plus</Card.Link>
         </Card.Body>
     </Card>
     <Card className="col col-lg-3">
